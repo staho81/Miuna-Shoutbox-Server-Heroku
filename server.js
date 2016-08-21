@@ -28,7 +28,7 @@ var mongodburl = ;
 
 // initialize db ===============================================================
 
-mongoose.connect(url); // connect to our database
+mongoose.connect(mongodburl); // connect to our database
 
 // set up our express application
 
