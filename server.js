@@ -24,7 +24,7 @@ var uidlist = {};
 var id = {};
 var msgtime = {};
 var badwl = {};
-var mongodburl = ;
+var mongodburl = process.env.MONGODB_URI;
 
 // initialize db ===============================================================
 
